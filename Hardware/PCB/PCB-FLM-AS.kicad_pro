@@ -560,7 +560,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "../../../../Plotação PCB - Luiz/",
+      "plot": "../../../../Amplificador BJT/Gerbers/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "../../../../Plotação PCB - Luiz/PCB-FLM-AS.step",
@@ -695,7 +695,7 @@
         "uuid": "a85e4d2f-be57-4084-9cd6-47d68af9666e"
       }
     ],
-    "used_designators": "T1,#PWR1-10,Cin1,#FLG1-2,R1-6,CN1,Q2,C3,Cout1,CE1,RC1,RL1,TP1-6",
+    "used_designators": "T1,#PWR1-10,J1,Cin1,#FLG1-2,R1-6,CN1,Q2,C3,Cout1,CE1,RC1,RL1,TP1-6,P1",
     "variants": []
   },
   "sheets": [

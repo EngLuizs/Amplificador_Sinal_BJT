@@ -10,6 +10,189 @@
 		(comment 1 "SCH-FLM-AS")
 	)
 	(lib_symbols
+		(symbol "Connector:Conn_01x02_Socket"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02_Socket"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x02_Socket_1_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy -0.508 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -0.508)
+					(mid -0.5058 0)
+					(end 0 0.508)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -3.048)
+					(mid -0.5058 -2.54)
+					(end 0 -2.032)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C_Polarized_US"
 			(pin_numbers
 				(hide yes)
@@ -1267,7 +1450,7 @@
 		(uuid "87ce7f35-66f7-4949-8b49-04d31836a362")
 	)
 	(junction
-		(at 288.925 133.35)
+		(at 288.29 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9e3aedcb-1b17-47c4-b057-342867ef468f")
@@ -1309,16 +1492,6 @@
 			(type default)
 		)
 		(uuid "13fb4ec2-4493-4d9a-9474-bb233fbfd975")
-	)
-	(wire
-		(pts
-			(xy 288.925 133.35) (xy 298.45 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "169d8b90-f64e-4412-9ed4-166a6d0d11ee")
 	)
 	(wire
 		(pts
@@ -1372,7 +1545,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.825 168.91) (xy 288.925 168.91)
+			(xy 250.825 168.91) (xy 288.29 168.91)
 		)
 		(stroke
 			(width 0)
@@ -1412,7 +1585,7 @@
 	)
 	(wire
 		(pts
-			(xy 288.925 146.685) (xy 288.925 168.91)
+			(xy 288.29 149.86) (xy 288.29 168.91)
 		)
 		(stroke
 			(width 0)
@@ -1452,7 +1625,7 @@
 	)
 	(wire
 		(pts
-			(xy 283.21 133.35) (xy 288.925 133.35)
+			(xy 283.21 133.35) (xy 298.45 133.35)
 		)
 		(stroke
 			(width 0)
@@ -1482,7 +1655,7 @@
 	)
 	(wire
 		(pts
-			(xy 288.925 133.35) (xy 288.925 139.065)
+			(xy 288.29 133.35) (xy 288.29 147.32)
 		)
 		(stroke
 			(width 0)
@@ -1549,6 +1722,16 @@
 			(type default)
 		)
 		(uuid "c0d54940-67ea-4f63-b509-d6dc4cddb362")
+	)
+	(wire
+		(pts
+			(xy 289.56 149.86) (xy 288.29 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1e654d6-2981-4d36-a561-7fa52fb38ff0")
 	)
 	(wire
 		(pts
@@ -1619,6 +1802,16 @@
 			(type default)
 		)
 		(uuid "df25c67e-0518-4230-b0c5-310602401815")
+	)
+	(wire
+		(pts
+			(xy 289.56 147.32) (xy 288.29 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e00184f0-32fb-46be-ab93-b9edba2e74aa")
 	)
 	(wire
 		(pts
@@ -1743,96 +1936,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 288.925 142.875 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "0489ed54-8bf8-4f85-858f-454619064193")
-		(property "Reference" "RL1"
-			(at 285.623 141.605 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.5 1.5)
-				)
-			)
-		)
-		(property "Value" "10K"
-			(at 285.115 143.891 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.5 1.5)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 287.909 142.621 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 288.925 142.875 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 288.925 142.875 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALTIUM_VALUE" ""
-			(at 288.925 142.875 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "9a71be22-f7a7-47e2-81ad-a77c37cd628b")
-		)
-		(pin "1"
-			(uuid "8332916c-9110-4c6b-a32c-ed6832d0a8e4")
-		)
-		(instances
-			(project "PCB-FLM-AS"
-				(path "/a85e4d2f-be57-4084-9cd6-47d68af9666e/881c0243-2fab-4f57-884c-60c05678b641"
-					(reference "RL1")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -3679,6 +3782,88 @@
 			(project "PCB-FLM-AS"
 				(path "/a85e4d2f-be57-4084-9cd6-47d68af9666e/881c0243-2fab-4f57-884c-60c05678b641"
 					(reference "RE2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 294.64 147.32 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec35ce41-5500-47e4-8ca3-f22783db6a37")
+		(property "Reference" "J1"
+			(at 295.91 147.3199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Resistores de Carga"
+			(at 295.91 149.8599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
+			(at 294.64 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 294.64 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 294.64 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "60f43a95-213a-4791-8f94-1e84d2c9fdad")
+		)
+		(pin "1"
+			(uuid "9c2e2868-09a8-4172-a798-ddf760bec1d3")
+		)
+		(instances
+			(project "PCB-FLM-AS"
+				(path "/a85e4d2f-be57-4084-9cd6-47d68af9666e/881c0243-2fab-4f57-884c-60c05678b641"
+					(reference "J1")
 					(unit 1)
 				)
 			)
