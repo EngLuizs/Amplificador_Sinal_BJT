@@ -379,146 +379,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SCH-CONECTOR:CON 2 VIAS"
-			(pin_numbers
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "CN"
-				(at -1.27 1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.8288 1.8288)
-					)
-				)
-			)
-			(property "Value" "CON 2 VIAS"
-				(at -1.27 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.8288 1.8288)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "PHOEN-MKDS1711725"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "*PHOEN-MKDS1711725*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "CON 2 VIAS_1_0"
-				(rectangle
-					(start -5.08 2.54)
-					(end -12.7 -2.54)
-					(stroke
-						(width 0.0254)
-						(type solid)
-						(color 128 0 0 1)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 0 0 180)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "CON 2 VIAS_2_0"
-				(rectangle
-					(start -5.08 2.54)
-					(end -12.7 -2.54)
-					(stroke
-						(width 0.0254)
-						(type solid)
-						(color 128 0 0 1)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 0 0 180)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "SCH-DISCRETO:GND1_POWER_GROUND"
 			(power global)
 			(exclude_from_sim no)
@@ -1330,19 +1190,6 @@
 		)
 		(uuid "b411811c-fcef-4cc1-a48f-055afca19d61")
 	)
-	(rectangle
-		(start 158.75 113.03)
-		(end 179.07 133.35)
-		(stroke
-			(width 0)
-			(type dash)
-			(color 0 0 255 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "e5fabb11-3b89-4ac6-a2e1-f138b2ae564c")
-	)
 	(text "PONTOS DE SAÍDA\n"
 		(exclude_from_sim no)
 		(at 193.04 152.4 0)
@@ -1402,7 +1249,7 @@
 		(uuid "3921f4d7-4735-4917-9f5b-a1f72430ad04")
 	)
 	(junction
-		(at 186.055 114.3)
+		(at 180.34 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "63b4b65a-b6fc-46f9-b4e5-70761e6feeee")
@@ -1414,7 +1261,7 @@
 		(uuid "78747d81-389a-41fa-a227-cd75ce4be9e7")
 	)
 	(junction
-		(at 186.055 133.35)
+		(at 180.34 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "87ce7f35-66f7-4949-8b49-04d31836a362")
@@ -1445,23 +1292,13 @@
 	)
 	(wire
 		(pts
-			(xy 186.055 114.3) (xy 186.055 119.38)
+			(xy 180.34 114.3) (xy 180.34 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "00af5138-cf18-48c5-9003-fd9d19005c10")
-	)
-	(wire
-		(pts
-			(xy 186.055 119.38) (xy 180.34 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "05c68bdc-d942-494c-b9bf-93b6788967dd")
 	)
 	(wire
 		(pts
@@ -1502,6 +1339,16 @@
 			(type default)
 		)
 		(uuid "1ea2ae32-c7ca-45a1-80d8-f08a567db6c7")
+	)
+	(wire
+		(pts
+			(xy 175.26 119.38) (xy 180.34 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f2b727c-414f-4e4e-862a-e4bf4589ad3c")
 	)
 	(wire
 		(pts
@@ -1645,16 +1492,6 @@
 	)
 	(wire
 		(pts
-			(xy 186.055 127) (xy 180.34 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aade147b-6d16-4e08-814d-17f25e1d1664")
-	)
-	(wire
-		(pts
 			(xy 271.145 166.37) (xy 271.145 168.91)
 		)
 		(stroke
@@ -1675,6 +1512,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 127) (xy 180.34 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b213b8a3-8fb3-448e-bdfa-cc4bf6548a6a")
+	)
+	(wire
+		(pts
 			(xy 264.795 145.415) (xy 264.795 147.32)
 		)
 		(stroke
@@ -1685,7 +1532,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.055 133.35) (xy 186.055 127)
+			(xy 180.34 133.35) (xy 180.34 127)
 		)
 		(stroke
 			(width 0)
@@ -2404,6 +2251,96 @@
 		)
 	)
 	(symbol
+		(lib_id "SCH-GERAL:P_TESTE")
+		(at 175.26 119.38 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "291c20c3-0745-4d38-a60a-d426bfb86cff")
+		(property "Reference" "TP5"
+			(at 162.306 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.4478 1.4478)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 165.1 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.4478 1.4478)
+				)
+				(justify top)
+			)
+		)
+		(property "Footprint" "PCB-GERAL:P_TESTE"
+			(at 175.26 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "P_TESTE"
+			(at 175.26 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ALTIUM_VALUE" "*"
+			(at 175.26 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "cf41464e-208d-4cce-8e5e-935410f0eb19")
+		)
+		(instances
+			(project "PCB-FLM-AS"
+				(path "/a85e4d2f-be57-4084-9cd6-47d68af9666e/881c0243-2fab-4f57-884c-60c05678b641"
+					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Polarized_US")
 		(at 271.145 162.56 0)
 		(unit 1)
@@ -2507,7 +2444,7 @@
 	)
 	(symbol
 		(lib_id "SCH-DISCRETO:GND1_POWER_GROUND")
-		(at 186.055 133.35 0)
+		(at 180.34 133.35 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2517,7 +2454,7 @@
 		(dnp no)
 		(uuid "4e62ce51-cef9-45d6-8c5f-41b81e173ffc")
 		(property "Reference" "#PWR08"
-			(at 186.055 133.35 0)
+			(at 180.34 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2528,7 +2465,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 186.309 140.462 0)
+			(at 180.594 140.462 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2538,7 +2475,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 186.055 133.35 0)
+			(at 180.34 133.35 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2548,7 +2485,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 186.055 133.35 0)
+			(at 180.34 133.35 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2558,7 +2495,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 186.055 133.35 0)
+			(at 180.34 133.35 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2851,7 +2788,7 @@
 	)
 	(symbol
 		(lib_id "SCH-DISCRETO:PW+_BAR")
-		(at 186.055 114.3 0)
+		(at 180.34 114.3 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2861,7 +2798,7 @@
 		(dnp no)
 		(uuid "7d638bfa-8570-42ff-a4e1-adbaf9db6256")
 		(property "Reference" "#PWR03"
-			(at 186.055 114.3 0)
+			(at 180.34 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2872,7 +2809,7 @@
 			)
 		)
 		(property "Value" "10V"
-			(at 186.182 110.236 0)
+			(at 180.467 110.236 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2882,7 +2819,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 186.055 114.3 0)
+			(at 180.34 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2892,7 +2829,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 186.055 114.3 0)
+			(at 180.34 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2902,7 +2839,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 186.055 114.3 0)
+			(at 180.34 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2935,24 +2872,25 @@
 		(dnp no)
 		(uuid "86e60e1e-9e26-4118-850c-dfe69149c82b")
 		(property "Reference" "RE1"
-			(at 260.985 150.114 0)
+			(at 263.144 150.876 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.5 1.5)
 				)
+				(justify left top)
 			)
 		)
-		(property "Value" "?"
-			(at 263.017 152.654 0)
+		(property "Value" "680R"
+			(at 263.144 153.162 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.5 1.5)
 				)
-				(justify left)
+				(justify left top)
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
@@ -3016,7 +2954,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 186.055 133.35 270)
+		(at 180.34 133.35 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3027,7 +2965,7 @@
 		(fields_autoplaced yes)
 		(uuid "8efa6399-724c-44f6-a641-ffe0c798e9fe")
 		(property "Reference" "#FLG02"
-			(at 187.96 133.35 0)
+			(at 182.245 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3038,7 +2976,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 189.23 133.3499 90)
+			(at 183.515 133.3499 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3049,7 +2987,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 186.055 133.35 0)
+			(at 180.34 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3060,7 +2998,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 186.055 133.35 0)
+			(at 180.34 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3071,7 +3009,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 186.055 133.35 0)
+			(at 180.34 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3088,98 +3026,6 @@
 			(project "PCB-FLM-AS"
 				(path "/a85e4d2f-be57-4084-9cd6-47d68af9666e/881c0243-2fab-4f57-884c-60c05678b641"
 					(reference "#FLG02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SCH-CONECTOR:CON 2 VIAS")
-		(at 180.34 119.38 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8fe6d494-a1ae-4afd-b0a9-4f6faf46c2de")
-		(property "Reference" "CN1"
-			(at 163.322 119.126 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-			)
-		)
-		(property "Value" "AKZ700-2-5,08V"
-			(at 179.07 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
-			(at 180.34 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 180.34 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 180.34 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALTIUM_VALUE" ""
-			(at 180.34 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "37769c57-1749-4b12-b02d-27eb3cba779e")
-		)
-		(pin "2"
-			(uuid "3ac27f39-83db-4dc2-8bb5-8883d6b3c4f4")
-		)
-		(instances
-			(project "PCB-FLM-AS"
-				(path "/a85e4d2f-be57-4084-9cd6-47d68af9666e/881c0243-2fab-4f57-884c-60c05678b641"
-					(reference "CN1")
 					(unit 1)
 				)
 			)
@@ -3276,38 +3122,40 @@
 		)
 	)
 	(symbol
-		(lib_id "SCH-CONECTOR:CON 2 VIAS")
-		(at 180.34 127 0)
-		(unit 2)
+		(lib_id "SCH-GERAL:P_TESTE")
+		(at 175.26 127 180)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "b7675f91-7904-4477-b638-1a5480fdcf12")
-		(property "Reference" "CN1"
-			(at 163.322 126.746 0)
+		(uuid "a57c272b-b71d-4dc2-a90a-b177f2cd9bfd")
+		(property "Reference" "TP6"
+			(at 162.306 127 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.4478 1.4478)
 				)
 			)
 		)
-		(property "Value" "AKZ700-2-5,08V"
-			(at 166.878 135.128 0)
+		(property "Value" "GND"
+			(at 165.1 123.19 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.4478 1.4478)
 				)
+				(justify top)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
-			(at 180.34 127 0)
+		(property "Footprint" "PCB-GERAL:P_TESTE"
+			(at 175.26 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3318,7 +3166,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 180.34 127 0)
+			(at 175.26 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3328,8 +3176,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 180.34 127 0)
+		(property "Description" "P_TESTE"
+			(at 175.26 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3339,28 +3187,26 @@
 				)
 			)
 		)
-		(property "ALTIUM_VALUE" ""
-			(at 180.34 127 0)
+		(property "ALTIUM_VALUE" "*"
+			(at 175.26 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8288 1.8288)
 				)
+				(justify left bottom)
 			)
-		)
-		(pin "2"
-			(uuid "81601cfa-ced2-47f2-982a-0d29672c9b6a")
 		)
 		(pin "1"
-			(uuid "3031e292-d537-451a-9f24-58cc16453cda")
+			(uuid "220a29c8-327c-44d9-9ac6-887d7824bbda")
 		)
 		(instances
 			(project "PCB-FLM-AS"
 				(path "/a85e4d2f-be57-4084-9cd6-47d68af9666e/881c0243-2fab-4f57-884c-60c05678b641"
-					(reference "CN1")
-					(unit 2)
+					(reference "TP6")
+					(unit 1)
 				)
 			)
 		)
@@ -3487,24 +3333,25 @@
 		(dnp no)
 		(uuid "cfa73e46-6284-408d-89c0-bcdd4405a2de")
 		(property "Reference" "RC1"
-			(at 261.747 125.095 0)
+			(at 263.398 126.238 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.5 1.5)
 				)
+				(justify left top)
 			)
 		)
-		(property "Value" "?"
-			(at 263.271 127.127 0)
+		(property "Value" "3,9K"
+			(at 263.398 128.524 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.5 1.5)
 				)
-				(justify left)
+				(justify left top)
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
@@ -3568,7 +3415,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 186.055 114.3 270)
+		(at 180.34 114.3 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3579,7 +3426,7 @@
 		(fields_autoplaced yes)
 		(uuid "da036226-098a-43ac-bc5e-7c8884500072")
 		(property "Reference" "#FLG01"
-			(at 187.96 114.3 0)
+			(at 182.245 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3590,7 +3437,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 189.23 114.2999 90)
+			(at 183.515 114.2999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3601,7 +3448,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 186.055 114.3 0)
+			(at 180.34 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3612,7 +3459,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 186.055 114.3 0)
+			(at 180.34 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3623,7 +3470,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 186.055 114.3 0)
+			(at 180.34 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
