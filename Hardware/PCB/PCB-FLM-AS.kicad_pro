@@ -563,7 +563,7 @@
       "plot": "../../../../Amplificador BJT/Gerbers/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "../../../../Plotação PCB - Luiz/PCB-FLM-AS.step",
+      "step": "../3D/PCB-FLM-AS.step",
       "svg": "",
       "vrml": ""
     },
